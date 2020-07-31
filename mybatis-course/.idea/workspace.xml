@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b786dd2-e020-4f31-9e6a-af011444833f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mybatis-mapper" />
+        <option value="mybatis-config" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\lenovo\apache-maven-3.3.9\myrepo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\lenovo\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="1f7O5LT8BPnWOmR5InMFqu7qQ54" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch01-hellomybatis" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestMybatis.testSelectForTwo">
+    <configuration name="TestMybatis.testForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testForeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testSelectForTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testSelectForTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testSelectForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testSelectForeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testSelectStudentIf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testSelectStudentIf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testSelectStudentWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testSelectStudentWhere" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMybatis.testSelectForTwo" />
+        <item itemvalue="JUnit.TestMybatis.testSelectForeach" />
+        <item itemvalue="JUnit.TestMybatis.testForeach" />
+        <item itemvalue="JUnit.TestMybatis.testSelectStudentWhere" />
+        <item itemvalue="JUnit.TestMybatis.testSelectStudentIf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b786dd2-e020-4f31-9e6a-af011444833f" name="Default Changelist" comment="" />
+      <created>1595565479907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595565479907</updated>
+      <workItem from="1595565483178" duration="11952000" />
+      <workItem from="1595643625463" duration="28364000" />
+      <workItem from="1595828034022" duration="258000" />
+      <workItem from="1595828340556" duration="612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="234" y="42" width="812" height="728" key="#Intentions" timestamp="1595571358893">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="234" y="42" width="812" height="728" key="#Intentions/0.0.1280.770@0.0.1280.770" timestamp="1595571358893" />
+    <state x="234" y="45" key="#Project_Structure" timestamp="1595650894644">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="234" y="45" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1595650894644" />
+    <state x="381" y="189" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595650799018">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="381" y="189" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.770@0.0.1280.770" timestamp="1595650799018" />
+    <state x="447" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1595728678446">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="447" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1595728678446" />
+    <state x="422" y="141" key="FileChooserDialogImpl" timestamp="1595828487630">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="422" y="141" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1595828487630" />
+    <state width="1223" height="237" key="GridCell.Tab.0.bottom" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.0.center" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.0.left" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.0.right" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.1.bottom" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.1.center" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.1.left" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state width="1223" height="237" key="GridCell.Tab.1.right" timestamp="1595750056392">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1223" height="237" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1595750056392" />
+    <state x="308" y="84" key="NewModule_or_Project.wizard" timestamp="1595828188655">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="308" y="84" key="NewModule_or_Project.wizard/0.0.1280.770@0.0.1280.770" timestamp="1595828188655" />
+    <state x="143" y="0" key="SettingsEditor" timestamp="1595828195575">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="143" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1595828195575" />
+    <state x="325" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1595828341615">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="325" y="211" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1595828341615" />
+    <state x="256" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595645879664">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="256" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.770@0.0.1280.770" timestamp="1595645879664" />
+    <state x="7" y="0" key="new project wizard" timestamp="1595828544031">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="7" y="0" key="new project wizard/0.0.1280.770@0.0.1280.770" timestamp="1595828544031" />
+    <state x="298" y="175" key="run.anything.popup" timestamp="1595676976274">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="298" y="175" key="run.anything.popup/0.0.1280.770@0.0.1280.770" timestamp="1595676976274" />
+    <state x="303" y="91" width="672" height="678" key="search.everywhere.popup" timestamp="1595745504057">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="303" y="91" width="672" height="678" key="search.everywhere.popup/0.0.1280.770@0.0.1280.770" timestamp="1595745504057" />
+  </component>
+</project>

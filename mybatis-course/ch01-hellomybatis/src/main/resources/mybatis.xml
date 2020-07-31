@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--settings控制mybatis全局行为-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/><!--设置mybatis输出日志-->
+    </settings>
+    <environments default="development"><!--default和id值需相同，告诉mybatis使用哪个数据库的连接信息。-->
+        <environment id="development"><!--environment可以有多个。-->
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/bjpowernode"/>
+                <property name="username" value="root"/>
+                <property name="password" value="231202"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers><!--sql映射文件的位置，类路径位置：编译后的target-classes下开始-->
+        <mapper resource="org/example/dao/StudentDao.xml"/>
+    </mappers>
+</configuration>
+<!--mybatis的主配置文件：主要定义了数据库的配置信息，sql映射文件位置-->

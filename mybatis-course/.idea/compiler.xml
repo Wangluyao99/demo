@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch01-hellomybatis" />
+        <module name="ch02-mybatis-dao" />
+        <module name="ch04-param" />
+        <module name="ch03-proxy-dao" />
+        <module name="ch06-dynamic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch01-hellomybatis" target="1.8" />
+      <module name="ch02-mybatis-dao" target="1.8" />
+      <module name="ch03-proxy-dao" target="1.8" />
+      <module name="ch04-param" target="1.8" />
+      <module name="ch06-dynamic" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.StudentDao">
+    <!--if
+        <if test="使用参数Java对象的属性值作为判断条件，语法：属性名=xxx值"
+    -->
+    <select id="selectStudentIf" resultType="org.example.domain.Student">
+        select id,name,email,age from student where 1=1
+        <if test="name !=null and name != '' ">/**有值*/
+            name=#{name}
+        </if>
+
+        <if test="age >0">
+            and age > #{age}
+        </if>
+    </select>
+
+    <!--where : <where> <if> <if> <if> ...</where>-->
+    <select id="selectStudentWhere" resultType="org.example.domain.Student">
+        select id,name,email,age from student
+        <where>
+            <if test="name !=null and name != '' ">
+                name=#{name}
+            </if>
+
+            <if test="age >0">
+                and age > #{age}
+            </if>
+        </where>
+    </select>
+
+    <!--foreach使用1 : List<Integer>-->
+    <select id="selectForeachOne" resultType="org.example.domain.Student">
+        select * from student where id in
+        <foreach collection="list" item="myid" open="(" close=")" separator=",">
+            #{myid}
+        </foreach>
+    </select>
+
+    <!--foreach使用2 ：-->
+    <select id="selectForeachTwo" resultType="org.example.domain.Student">
+        select *from student where id in
+        <foreach collection="list" item="stu" open="(" close=")" separator=",">
+            #{stu.id}
+        </foreach>
+    </select>
+
+</mapper>
+<!--where 后面1=1，防止第一个if语句不成立，后面语句报错。可以使用where标签:去掉无效字符-->
+<!--两个语句后面加and或者or-->
+<!--collection:表示接口中的方法谷数的类型，如果是数组 使用array，如果是list集合使用list
+    item:自定义的，表示数组和集合成员的变量
+    open:循环开始是的字符
+    close :循环结束时的字符
+    separator:集合成员之间的分隔符
+-->

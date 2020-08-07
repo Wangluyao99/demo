@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31cabb19-4b41-42c7-97e4-bded9da25068" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="spring-beans.schema" />
+        <option value="Mybatis-mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\lenovo\apache-maven-3.3.9\myrepo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\lenovo\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="1fFzI1ii3TD6uMb7cEbaK4rhmyf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springMVC-course" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.ba02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lenovo\IDEA project\spring-course\ch08-spring-trans\src\main" />
+      <recent name="D:\lenovo\IDEA project\spring-course\ch08-spring-trans\src\main\java" />
+      <recent name="D:\lenovo\IDEA project\spring-course\ch06-aop-aspectj\src\main\java\org\example" />
+      <recent name="D:\lenovo\IDEA project\spring-course\ch04-di-anno\src\main\java\org\example\da06" />
+      <recent name="D:\lenovo\IDEA project\spring-course\ch04-di-anno\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+      <recent name="org.example.ba03" />
+      <recent name="org.example.ba02" />
+      <recent name="org.example.da06" />
+      <recent name="org.example.da03" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.service.impl" />
+      <recent name="org.example.ba03" />
+      <recent name="org.example.ba02" />
+      <recent name="org.example.ba01" />
+      <recent name="com.bjpowernode.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.test (2)">
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch09-spring-trans-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch10-spring-trans-aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch08-spring-trans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest01.testServiceInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch07-spring-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myTest01" />
+      <option name="METHOD_NAME" value="testServiceInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest01.testServiceSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch07-spring-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myTest01" />
+      <option name="METHOD_NAME" value="testServiceSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test (2)" />
+        <item itemvalue="JUnit.MyTest.test (1)" />
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.myTest01.testServiceSelect" />
+        <item itemvalue="JUnit.myTest01.testServiceInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31cabb19-4b41-42c7-97e4-bded9da25068" name="Default Changelist" comment="" />
+      <created>1595828544157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595828544157</updated>
+      <workItem from="1595828547914" duration="12654000" />
+      <workItem from="1595906930422" duration="16253000" />
+      <workItem from="1596025479204" duration="8101000" />
+      <workItem from="1596114362611" duration="2603000" />
+      <workItem from="1596169162694" duration="8366000" />
+      <workItem from="1596259628866" duration="6871000" />
+      <workItem from="1596281493979" duration="5842000" />
+      <workItem from="1596358376072" duration="10160000" />
+      <workItem from="1596427452206" duration="5685000" />
+      <workItem from="1596605156734" duration="12008000" />
+      <workItem from="1596714532380" duration="2214000" />
+      <workItem from="1596770219060" duration="2231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="44" key="#Inspections" timestamp="1596197688440">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="233" y="44" key="#Inspections/0.0.1280.770@0.0.1280.770" timestamp="1596197688440" />
+    <state x="234" y="45" key="#Project_Structure" timestamp="1596115145537">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="234" y="45" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1596115145537" />
+    <state x="387" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596116913097">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="387" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.770@0.0.1280.770" timestamp="1596116913097" />
+    <state x="447" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1596433496126">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="447" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1596433496126" />
+    <state x="372" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595933257049">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="372" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.770@0.0.1280.770" timestamp="1595933257049" />
+    <state x="379" y="237" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596115471660">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="379" y="237" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.770@0.0.1280.770" timestamp="1596115471660" />
+    <state x="423" y="141" key="FileChooserDialogImpl" timestamp="1596770231988">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="423" y="141" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1596770231988" />
+    <state width="1237" height="201" key="GridCell.Tab.0.bottom" timestamp="1596636713816">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="201" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1596636713816" />
+    <state width="1237" height="201" key="GridCell.Tab.0.center" timestamp="1596636713816">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="201" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1596636713816" />
+    <state width="1237" height="201" key="GridCell.Tab.0.left" timestamp="1596636713815">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="201" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1596636713815" />
+    <state width="1237" height="201" key="GridCell.Tab.0.right" timestamp="1596636713816">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="201" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1596636713816" />
+    <state width="1237" height="239" key="GridCell.Tab.1.bottom" timestamp="1596274606029">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="239" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1596274606029" />
+    <state width="1237" height="239" key="GridCell.Tab.1.center" timestamp="1596274606029">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="239" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1596274606029" />
+    <state width="1237" height="239" key="GridCell.Tab.1.left" timestamp="1596274606028">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="239" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1596274606028" />
+    <state width="1237" height="239" key="GridCell.Tab.1.right" timestamp="1596274606029">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="239" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1596274606029" />
+    <state x="287" y="84" key="NewModule_or_Project.wizard" timestamp="1596631175273">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="287" y="84" key="NewModule_or_Project.wizard/0.0.1280.770@0.0.1280.770" timestamp="1596631175273" />
+    <state x="122" y="0" key="SettingsEditor" timestamp="1596714913284">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="122" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1596714913284" />
+    <state x="443" y="164" key="chooseDestDirectoryDialog" timestamp="1596433068986">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="443" y="164" key="chooseDestDirectoryDialog/0.0.1280.770@0.0.1280.770" timestamp="1596433068986" />
+    <state x="325" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1596770219134">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="325" y="211" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1596770219134" />
+    <state x="217" y="39" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596197489026">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="217" y="39" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.770@0.0.1280.770" timestamp="1596197489026" />
+    <state x="14" y="0" width="1266" height="708" key="new project wizard" timestamp="1596714611937">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="14" y="0" width="1266" height="708" key="new project wizard/0.0.1280.770@0.0.1280.770" timestamp="1596714611937" />
+    <state x="301" y="178" key="run.anything.popup" timestamp="1596260103287">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="301" y="178" key="run.anything.popup/0.0.1280.770@0.0.1280.770" timestamp="1596260103287" />
+    <state x="313" y="101" width="672" height="678" key="search.everywhere.popup" timestamp="1596630703916">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="313" y="101" width="672" height="678" key="search.everywhere.popup/0.0.1280.770@0.0.1280.770" timestamp="1596630703916" />
+    <state x="293" y="69" key="spring file set editor" timestamp="1596631368093">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="293" y="69" key="spring file set editor/0.0.1280.770@0.0.1280.770" timestamp="1596631368093" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch02-recevieparam/ch02-recevieparam.iml" filepath="$PROJECT_DIR$/ch02-recevieparam/ch02-recevieparam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-return/ch03-return.iml" filepath="$PROJECT_DIR$/ch03-return/ch03-return.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-springmvc/test-springmvc.iml" filepath="$PROJECT_DIR$/test-springmvc/test-springmvc.iml" />
+    </modules>
+  </component>
+</project>

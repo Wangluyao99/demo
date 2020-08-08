@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch03-return" />
+        <module name="ssm" />
+        <module name="test-springmvc" />
+        <module name="ch02-recevieparam" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch02-recevieparam" target="1.8" />
+      <module name="ch03-return" target="1.8" />
+      <module name="ssm" target="1.5" />
+      <module name="test-springmvc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

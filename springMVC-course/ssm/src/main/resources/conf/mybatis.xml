@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--设置别名-->
+    <typeAliases>
+        <!--name是实体类所在的包名-->
+        <package name="com.bj.domain"/>
+    </typeAliases>
+
+    <mappers><!--sql映射文件的位置，类路径位置：编译后的target-classes下开始-->
+        <!--name是mapper的所在包-->
+        <package name="com.bj.dao"/>
+    </mappers>
+</configuration>
+
+        <!--spring 集成mybatis 的主配置文件！！！！！！！-->

@@ -1,0 +1,47 @@
+ <!-- 该文件是mybatis逆向工程中使用的文件-->
+<generatorConfiguration>
+    <!-- 指定连接数据库的JDBC 驱动包所在位置，指定到你本机的完整路径-->
+    <classPathEntry location=" D:\mysql-connector-java-5.1.38.jar"/>
+    <!--配置table 表信息内容体，targetRuntime 指定采用MyBatis3 的版本-->
+    <context id="tables" targetRuntime= "MyBatis3">
+        <!--
+        抑制生成注释，由于生成的注释都是英文的，可以不让它生成-->
+        <commentGenerator>
+            <property name= "suppres SAllComments" value="true" />
+        </ commentGenerator>
+        <!--配置数据库连接信息-->
+        <jdbcConnection driverClass= "com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ springboot"
+                        userId="root"
+                        password= "123456" >
+        </jdbcConnection>
+        <!--生成model类，targetPackage 指定model 类的包名， targetProject 指定
+        生成的model 放在eclipse 的哪个工程下面-->
+        <javaModelGenerator targetPackage=" com . abc。springboot . model"
+                            targetProject="src/main/java">
+        <property name= "enableSubPackages" value="false"/>
+        <property name= "trimStrings" value="false" />
+        </javaModelGenerator>
+        <!-- 生成MyBatis 的Mapper.xml 文件，targetPackage 指定mapper .xml 文件的
+        包名，
+        targetProject指定生成的mapper .xml放在eclipse 的哪个工程下面-->
+        <sqlMapGenerator targetPackage= "com.abc . springboot。mapper"
+        targetProject="src/main/java ">
+            <property name= "enableSubPackages" value= "false "/>
+        </ sqlMapGenerator>
+        <!--生成MyBatis 的Mapper 接口类文件,targetPackage 指定Mapper 接口类的包
+        名，targetProject 指定生成的Mapper接口放在eclipse 的哪个工程下面-->
+        <javaClientGenerator type="XMLMAPPER"
+                            targetPackage="com.abc.springboot.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+        <!--数据库表名及对应的Java模型类名-->
+        <table tableName="t_student" domainobjectName="Student"
+        enableCountByExample="false"
+        enableUpdateByExample="false"
+        enableDeleteByExample="false"
+        enableSelectByExample= "false"
+        selectByExampleQueryId="false"/>
+    </context>
+</generatorConfiguration>
+

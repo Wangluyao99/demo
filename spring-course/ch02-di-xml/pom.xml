@@ -19,7 +19,7 @@
       <!--junit是单元测试，测试方法-->
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
 
